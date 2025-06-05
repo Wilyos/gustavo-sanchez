@@ -9,10 +9,10 @@
   font-family: "Montserrat", sans-serif;
 }
 :root {
-  --bg-color: white;
-  --second-bg-color: #D9D9D9;
-  --text-color: #004E9F;
-  --main-color: #0477BF;
+  --bg-color: #0D0D0D;
+  --second-bg-color: black;
+  --text-color: #D99414;
+  --main-color: #D19E11;
 }
 html {
   font-size: 60%;
@@ -31,7 +31,7 @@ body{
   top: 0;
   left: 0;
   padding: 4rem 15%;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
@@ -56,8 +56,8 @@ body{
 span{
   background: linear-gradient(
     270deg,
-    #049DD9 10%,
-    #004E9F 80%
+    #f5b916  10%,
+    #D99414 80%
 
   );
   background-clip: text;
@@ -82,8 +82,8 @@ span{
   border-radius: 3rem;
   background: linear-gradient(
     270deg,
-    #049DD9 10%,
-    #004E9F 80%
+    #f5b916 10%,
+    #D99414 80%
    
   );
   letter-spacing: 1px;
@@ -140,7 +140,7 @@ section{
 
 
 .home-image img{
-  width: 16vw;
+  width: 32vw;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
   transition: 0.4s ease-in-out;
@@ -521,7 +521,7 @@ transform: scale(1.03);
     right: 0;
     width: 50%;
     padding: 1rem 3rem;
-    background: rgba(255, 254, 254, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     border-bottom-left-radius: 2rem;
     border-left: 2px solid var(--main-color);
     border-bottom: 2px solid var(--main-color);
